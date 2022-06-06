@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+  padding: 40px;
+  background-color: rgba(194, 194, 194, 0.678);
+}
+
+.container .item {
+  margin: 20px;
+  border: 1px solid #000;
+  padding: 10px;
+  user-select: none;
+}
+
+.container .item.selected {
+  color: red;
+  border-color: red;
+}
