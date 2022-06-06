@@ -1,0 +1,10 @@
+.multi-selected {
+  position: absolute;
+  z-index: 9999;
+  background-color: #fff;
+  opacity: 0.3;
+  border: 1px solid #d9d9d9;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
